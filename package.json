@@ -1,0 +1,24 @@
+{
+  "name": "backend-result",
+  "version": "1.0.0",
+  "description": "This is the first application with backend",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "serve": "nodemon index.js"
+  },
+  "keywords": [
+    "node"
+  ],
+  "author": "ilya10rus <ilya.petrenko.96@mail.ru>",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "yargs": "^17.7.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
